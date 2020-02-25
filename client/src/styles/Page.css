@@ -1,0 +1,25 @@
+.Page {
+  /*word-wrap: break-word;*/
+  margin: auto;
+  text-align: left;
+  background: #444444;
+  box-shadow: inset 0 0 2px orange;
+  padding: 0;
+}
+
+.char {
+  box-shadow: inset 0 0 1px black;
+}
+
+.flash-cursor {
+  color: white;
+  animation-name: flash-cursor-anim;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash-cursor-anim {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
